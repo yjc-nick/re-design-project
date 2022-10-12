@@ -1,0 +1,406 @@
+body
+{
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+
+a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+
+
+
+ul
+{
+    color: #e4eded;
+}
+
+footer
+{
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    text-align: center;
+
+    background-color: rgb(35, 49, 59);
+}
+
+footer p
+{
+    color: #fff;
+}
+
+.piazza-logo
+{
+    height: 40px;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+
+
+.about-us
+{
+    position: absolute;
+    top: 45px;
+    right: 0;
+    left: 0;
+
+    height: 50rem;
+    margin-top: 2%;
+}
+
+.about-us-p
+{
+    text-align: center;
+}
+
+.landing-page
+{
+    /* height: 40rem; */
+    height: 100vh;
+
+    background-image: url('./images/background-img.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.landing-page p
+{
+    text-align: center;
+}
+
+.landing-page-title
+{
+    font-size: 2rem;
+
+    color: white;
+}
+
+.landing-page-video
+{
+    width: 50%;
+    height: 24rem;
+    margin-top: -6%;
+}
+
+
+
+.students
+{
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 30px;
+    margin-right: 5px;
+    padding: 10px;
+
+    cursor: pointer;
+
+    border: 1px solid #f6d8ac;
+    border-radius: 3px;
+    background-color: #f6d8ac;
+}
+
+.profs
+{
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 30px;
+    margin-right: 5px;
+    padding: 10px;
+
+    cursor: pointer;
+
+    border: 1px solid #7e9a9a;
+    border-radius: 3px;
+    background-color: #7e9a9a;
+}
+
+.class
+{
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 30px;
+    margin-right: 5px;
+    padding: 10px;
+
+    cursor: pointer;
+
+    border: 1px solid #8ec3eb;
+    border-radius: 3px;
+    background-color: #8ec3eb;
+}
+
+.landing-page-video iframe
+{
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+}
+
+.story1
+{
+    font-size: 2rem;
+    font-weight: 1000;
+
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #353434;
+}
+
+.story2
+{
+    font-size: 25px;
+
+    text-align: center;
+
+    color: #595555;
+}
+
+.stories-container
+{
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 50px;
+}
+
+.story-image
+{
+    width: 35rem;
+    height: 35rem;
+    margin: 30px;
+
+    transition: .5s ease;
+}
+
+.story-overlay
+{
+    position: absolute;
+    left: 30px;
+
+    width: 35rem;
+    height: 35rem;
+    margin-top: -37.08rem;
+
+    transition: .5s ease;
+    text-align: center;
+
+    opacity: 0;
+    background-color: rgb(54, 52, 52);
+}
+
+.story-overlay:hover
+{
+    opacity: .75;
+}
+
+.story-wrapper
+{
+    position: relative;
+
+    flex: 30%;
+}
+
+.story-name
+{
+    font-size: 30px;
+    font-weight: 800;
+
+    position: relative;
+    top: 20%;
+
+    color: #fafafa;
+}
+
+.story-subject
+{
+    position: relative;
+    top: 25%;
+
+    color: #fafafa;
+}
+
+.story-story
+{
+    position: relative;
+    top: 25%;
+
+    color: #fafafa;
+}
+
+.user-stories
+{
+    margin-bottom: 2%;
+}
+
+.subject-first-line
+{
+    font-size: 2rem;
+    font-weight: 1000;
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #353434;
+}
+
+.subject-second-line
+{
+    font-size: 25px;
+
+    text-align: center;
+
+    color: #595555;
+}
+
+.subject-icons
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subject-icons a
+{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
+    width: 25rem;
+}
+
+.subject-icons a:hover
+{
+    border-radius: 10px;
+    background-color: #aaabb8;
+}
+
+.subject-icon
+{
+    width: 9rem;
+    margin: 5rem;
+}
+
+.computer-science-icon
+{
+    width: 120px;
+    padding: 12px;
+}
+
+.subject-text
+{
+    font-weight: 300;
+}
+
+.media-icons
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-bottom: 50px;
+}
+
+.media-icons div
+{
+    width: 150px;
+    height: 150px;
+    margin-top: 5rem;
+}
+
+.media-icon
+{
+    width: 150px;
+}
+
+.entrepreneur-logo
+{
+    padding: 46.62px 0 46.62px 0;
+}
+
+.nyt-logo
+{
+    padding: 14.945px 0 14.945px 0;
+}
+
+.forbes-logo
+{
+    padding: 55.376px 0 55.376px 0;
+}
+
+.npr-logo
+{
+    padding: 55.44px 0 55.44px 0;
+}
+
+.chronicle-logo
+{
+    padding: 35.085px 0 35.085px 0;
+}
+
+.us-news-logo
+{
+    padding: 49.46px 0 49.46px 0;
+}
+
+.news-title
+{
+    font-size: 2rem;
+    font-weight: 1000;
+
+    margin-top: 10rem;
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #353434;
+}
+
+.fblogo,
+.twitterlogo
+{
+    width: 30px;
+}
+
+.about-us
+{
+    text-align: center;
+}
+
+h5{
+  color: black;
+}
+
+.professor-p{
+  color:black;
+}
+
+.professor-h5{
+  color:white;
+}
